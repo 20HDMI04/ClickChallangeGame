@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClickChallangeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClickChallangeGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="TimerText" Text="00:00:00" FontSize="34" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,0"></TextBlock>
+        <TextBlock x:Name="Times" Text="Times - 0" FontSize="23" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0"></TextBlock>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock x:Name="InstructionText" Text="Kezdd el a nyomd meg az új játék gombbal!" FontSize="16" TextAlignment="Center" Margin="10"></TextBlock>
+            <Button x:Name="Clicking" Content="Kattints amennyiszer tudsz!" FontSize="18" Width="200" Height="50" Visibility="Hidden" Click="Clicking_Click" ></Button>
+            <Button x:Name="NewGameButton" Content="Új játék" Width="150" Height="40" Margin="20" Click="NewGameButton_Click" ></Button>
+        </StackPanel>
+    </Grid>
+</Window>

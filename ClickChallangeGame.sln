@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickChallangeGame", "ClickChallangeGame.csproj", "{FA02C637-5947-413E-814B-4851A1BD7CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA02C637-5947-413E-814B-4851A1BD7CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA02C637-5947-413E-814B-4851A1BD7CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA02C637-5947-413E-814B-4851A1BD7CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA02C637-5947-413E-814B-4851A1BD7CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F650B03-86FD-4C64-9CB0-20FB677DB843}
+	EndGlobalSection
+EndGlobal
